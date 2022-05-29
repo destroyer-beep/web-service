@@ -1,0 +1,111 @@
+.user {
+    max-width: 1116px;
+    margin: 0 auto;
+}
+
+.user__header {
+    margin-top: 35px;
+    border: 1px solid #000000;
+}
+
+.user__name_box {
+    padding: 0 53px;
+    height: 64px;
+    border-bottom: 1px solid #000000;
+}
+
+.user__name {
+    height: 100%;
+    width: 100%;
+    padding-left: 18px;
+    display: flex;
+    align-items: center;
+    font-family: "AlegreyaSansSC-Medium";
+    font-size: 35px;
+    font-weight: lighter;
+    border-left: 1px solid #000000;
+    border-right: 1px solid #000000;
+}
+
+.user__info {
+    height: 44px;
+    padding:0 53px;
+    display: flex;
+    align-items: center;
+}
+
+.user__info_box {
+    width: 576px;
+    display: flex;
+    justify-content: space-around;
+    font-family: "OpenSans-Regular";
+    font-size: 18px;
+    height: 100%;
+}
+
+.user__city {
+    width: 190px;
+    border-left: 1px solid #000000;
+
+}
+
+.user__email {
+    width: 190px;
+    border-left: 1px solid #000000;
+    border-right: 1px solid #000000;
+}
+
+.user__phone {
+    width: 200px;
+}
+
+.user__info_box p {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.user__button_message {
+    max-width: 176px;
+    width: 100%;
+    font-family: "ProximaNova-Semibold";
+    font-size: 14px;
+    text-align: center;
+    height: 100%;
+    cursor: pointer;
+    border: none;
+    background-color: #101010;
+    color: #FFFFFF;
+}
+
+.user__button_message:hover {
+    background-color: #FFFFFF;
+    color: #101010;
+    outline: 1px solid #101010;
+}
+
+.user__button_invite {
+    margin-left: 1px;
+    width: 100%;
+    font-family: "ProximaNova-Semibold";
+    font-size: 14px;
+    text-align: center;
+    height: 100%;
+    cursor: pointer;
+    border: none;
+    background-color: #101010;
+    color: #FFFFFF;
+}
+
+.user__button_invite:hover {
+    background-color: #FFFFFF;
+    color: #101010;
+    outline: 1px solid #101010;
+}
+
+.user__content {
+    padding-top: 25px;
+    border: 1px solid #000000;
+    border-top: none;
+}
+

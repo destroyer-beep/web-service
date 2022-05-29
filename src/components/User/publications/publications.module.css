@@ -1,0 +1,22 @@
+.publications {
+    padding: 0 53px 40px;
+}
+
+.publications__header {
+    margin: 20px 0;
+    font-family: "AlegreyaSansSC-Medium";
+    font-weight: lighter;
+    font-size: 35px;
+}
+
+.publications__box {
+    display: flex;
+    justify-content: space-between;
+}
+
+.publications__item {
+    width: 154px;
+    height: 154px;
+    border: 1px solid #000000;
+    background-color: #FF0000;
+}

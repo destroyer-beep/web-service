@@ -1,0 +1,21 @@
+.history {
+    max-width: 995px;
+    margin: 50px auto 100px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.history__head {
+    max-width: 132px;
+    font-family: "AlegreyaSansSC-Medium";
+    font-weight: lighter;
+    font-size: 35px;
+}
+
+.history__description {
+    max-width: 838px;
+    font-family: "OpenSans-SemiBold";
+    font-size: 16px;
+    line-height: 24px;
+    color: #939393;
+}

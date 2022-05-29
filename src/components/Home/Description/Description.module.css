@@ -1,0 +1,91 @@
+.description {
+    max-width: 995px;
+    margin: 47px auto 0;
+    display: flex;
+    justify-content: space-between;
+}
+
+.description__box {
+    max-width: 431px;
+}
+
+.description__head {
+    font-family: "AlegreyaSansSC-Medium";
+    font-weight: lighter;
+    font-size: 35px;
+}
+
+.description__text {
+    min-height: 215px;
+    margin-top: 16px;
+    padding-left: 42px;
+    border-left: 2px solid #CFD2DB;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.description__text_bold {
+    max-width: 335px;
+    font-family: "OpenSans-Bold";
+    font-size: 15px;
+    line-height: 20px;
+}
+
+.desription__text_light {
+    max-width: 310px;
+    font-family: "OpenSans-SemiBold";
+    font-size: 14px;
+    line-height: 24px;
+    color: #939393;
+}
+
+.description__form {
+    max-width: 559px;
+    width: 100%;
+    min-height: 100%;
+    padding: 25px;
+    border: 1px solid #DADADA;
+}
+
+.description__form_head {
+    font-family: "OpenSans-SemiBold";
+    font-size: 18px;
+}
+
+.description__input {
+    width: 509px;
+    height: 134px;
+    margin-top: 20px;
+    padding: 10px 20px;
+    resize: none;
+    border: 1px solid #0D1E4B;
+    font-family: "OpenSans-SemiBold";
+    font-size: 11px;
+}
+
+.description__input:focus {
+    outline: none;
+}
+
+.description__button {
+    width: 100px;
+    height: 34px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: auto;
+    margin-top: 16px;
+    border: none;
+    background-color: #101010;
+    font-family: "OpenSans-SemiBold";
+    font-size: 11px;
+    color: #FFFFFF;
+    cursor: pointer;
+}
+
+.description__button:hover {
+    background-color: #FFFFFF;
+    color: #101010;
+    border: 1px solid #101010;
+}

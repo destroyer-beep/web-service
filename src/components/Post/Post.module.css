@@ -1,0 +1,21 @@
+.post {
+    max-width: 1116px;
+    margin: 40px auto 0;
+}
+
+.post__title {
+    margin-bottom: 10px;
+    font-family: "AlegreyaSansSC-Bold";
+    font-size: 45px;
+}
+
+.post__date {
+    font-family: "AlegreyaSansSC-Bold";
+    color: #939393;
+}
+
+.post__text {
+    margin-top: 30px;
+    font-family: "OpenSans-Regular";
+    font-size: 35px;
+}

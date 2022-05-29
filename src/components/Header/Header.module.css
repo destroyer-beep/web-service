@@ -1,0 +1,54 @@
+.header {
+    max-width: 1116px;
+    width: 100%;
+    margin: 0 auto;
+    background-color: #101010;
+}
+
+.header__box {
+    margin: 0 auto;
+    max-width: 1023px;
+    width: 100%;
+    padding: 15px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.header__logo {
+    font-family: "AlegreyaSansSC-Bold";
+    font-size: 28px;
+    color: #FFFFFF;
+}
+
+.header__buttons {
+    max-width: 474px;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.header__button {
+    font-family: "ProximaNova-Semibold";
+    font-size: 14px;
+    text-align: center;
+    height: 40px;
+    cursor: pointer;
+    border: none;
+}
+
+.header__button:hover {
+    background-color: #101010;
+    color: #FFFFFF;
+    border: 1px solid #FFFFFF;
+}
+
+.header__button_version {
+    max-width: 257px;
+    width: 100%;
+}
+
+.header__button_profile {
+    max-width: 205px;
+    width: 100%;
+}
