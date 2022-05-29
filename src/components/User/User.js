@@ -30,8 +30,6 @@ const User = (props) => {
                     <button className={s.user__button_invite}>Предложить сходить на концерт</button>
                 </div>
             </div>
-            {console.log(props.user)}
-            {console.log(props.posts)}
             <div className={s.user__content}>
                 <Posts posts={props.posts} userId={params.id}/>
                 <Publications/>

@@ -26,7 +26,6 @@ const Users = (props) => {
 }
 
 let mapStateToProps = (state) => {
-    console.log(state)
     return {
         users: state.users.usersList
     }

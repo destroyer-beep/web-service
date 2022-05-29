@@ -19,8 +19,7 @@ const Post = (props) => {
             <div className={s.post__title}>{props.post ? props.post.title : null}</div>
             <div className={s.post__date}>12.02.22</div>
             <div className={s.post__text}>{props.post ? props.post.body : null}</div>
-            <div className={s.post__comments}>
-                {console.log(props.comments)}
+            <div>
                 {props.comments ? props.comments.map(comment => {
                     return (
                         <Comment comment={comment} key={comment.id}/>
